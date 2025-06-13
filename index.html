@@ -4,105 +4,97 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="0mTxs7nFlfynq4Bh7CV7Xwa3SWLQQ5um1eKyWfl7xBM" />
+  <meta name="description" content="Download a professional resume template instantly for just $2. Delivered in Word and PDF. Perfect for job seekers, students, and professionals." />
+  <meta name="keywords" content="resume, CV, resume template, professional resume, download resume, instant resume, Word resume, PDF resume, job application, resume builder" />
+  <meta name="author" content="Saeed Ahmad" />
+  <meta name="robots" content="index, follow" />
   <title>Professional Resume Template</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: #000;
-      color: #00f5ff;
-      text-align: center;
+      background-color: #000;
+      color: #0ff;
       animation: fadeIn 2s ease;
     }
-    header {
-      padding: 50px 10px 20px;
-      font-size: 3rem;
-      font-weight: bold;
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
-    section {
-      margin: 40px auto;
-      max-width: 800px;
-      background: #111;
-      border-radius: 15px;
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
       padding: 30px;
-      box-shadow: 0 0 20px #00f5ff;
+      background: #111;
+      border-radius: 16px;
+      box-shadow: 0 0 20px #0ff;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
     }
     ul {
       text-align: left;
-      padding-left: 20px;
       font-size: 1.2rem;
-    }
-    li::before {
-      content: "✅ ";
+      line-height: 2;
     }
     .preview {
-      margin-top: 20px;
-      background: #000;
-      padding: 10px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #00f5ff;
-      display: inline-block;
+      margin-top: 40px;
     }
     .preview img {
-      width: 100%;
-      max-width: 600px;
-      border-radius: 10px;
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #0ff;
+      transition: transform 0.3s;
     }
-    .btn {
+    .preview img:hover {
+      transform: scale(1.05);
+    }
+    .button {
       display: inline-block;
       margin-top: 40px;
-      padding: 15px 30px;
-      background: #00f5ff;
+      padding: 20px 40px;
+      font-size: 1.4rem;
       color: #000;
-      font-size: 1.5rem;
+      background: linear-gradient(to right, #0ff, #0cf);
+      border-radius: 30px;
       font-weight: bold;
-      border-radius: 15px;
       text-decoration: none;
-      box-shadow: 0 0 15px #00f5ff;
-      transition: all 0.3s ease-in-out;
+      box-shadow: 0 0 15px #0ff;
+      transition: background 0.3s, transform 0.3s;
     }
-    .btn:hover {
-      background: #fff;
-      color: #000;
+    .button:hover {
+      background: linear-gradient(to right, #0cf, #0ff);
       transform: scale(1.1);
     }
     footer {
+      text-align: center;
       margin-top: 50px;
       padding: 20px;
-      color: #888;
-      font-size: 0.9rem;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-20px); }
-      to { opacity: 1; transform: translateY(0); }
+      color: #777;
     }
   </style>
 </head>
 <body>
-
-  <header>🚀 Build Your Resume & Get Hired</header>
-
-  <section>
-    <p style="font-size: 1.3rem;">Download a high-quality, professional resume template instantly!</p>
+  <div class="container">
+    <h1>🎯 Download Professional Resume Template</h1>
     <ul>
-      <li>Delivered in .docx + PDF Preview</li>
-      <li>Instant ZIP Download</li>
-      <li>Only $2</li>
+      <li>✅ Delivered in .docx + PDF Preview</li>
+      <li>📦 Instant ZIP Download</li>
+      <li>💲 Only $2</li>
     </ul>
-  </section>
 
-  <section>
-    <h2>Resume Template Preview</h2>
     <div class="preview">
+      <h2>Resume Template Preview</h2>
       <img src="https://raw.githubusercontent.com/smaa685/resume-maker/main/resume-preview.png" alt="Resume Preview">
     </div>
-  </section>
 
-  <a href="https://smaainternational.gumroad.com/l/eisms" class="btn">👉 Download Resume for $2</a>
+    <a class="button" href="https://smaainternational.gumroad.com/l/eisms" target="_blank">👉 Download Resume for $2</a>
+  </div>
 
   <footer>
     © 2025 Saeed Ahmad | Resume Builder | Powered by Gumroad
   </footer>
-
 </body>
 </html>
